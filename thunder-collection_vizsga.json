@@ -1,0 +1,67 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "vizsga",
+    "dateExported": "2024-05-21T16:04:21.885Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "26d76eb6-040b-4bfc-a478-e0d6ba38c7d0",
+            "colId": "389d06a6-25b1-4fb6-86c3-2525e5011908",
+            "containerId": "",
+            "name": "szavak",
+            "url": "http://localhost:8000/api/szavak",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-05-21T14:07:03.793Z",
+            "modified": "2024-05-21T14:07:28.895Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "04ebd069-5981-4a3e-84c6-562ce4b890f5",
+            "colId": "389d06a6-25b1-4fb6-86c3-2525e5011908",
+            "containerId": "",
+            "name": "temak",
+            "url": "http://localhost:8000/api/temak",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-05-21T14:14:34.781Z",
+            "modified": "2024-05-21T14:14:47.960Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "d7e82903-dcb2-4c01-93d7-5164e61e972e",
+            "colId": "389d06a6-25b1-4fb6-86c3-2525e5011908",
+            "containerId": "",
+            "name": "szavakTema",
+            "url": "http://localhost:8000/api/szavak/${temaId}",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-05-21T14:24:12.733Z",
+            "modified": "2024-05-21T15:36:00.750Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                }
+            ],
+            "params": [
+                {
+                    "name": "temaId",
+                    "value": "3",
+                    "isPath": true
+                }
+            ],
+            "tests": []
+        }
+    ]
+}
